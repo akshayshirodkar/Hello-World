@@ -10,3 +10,5 @@ Share not found. Addd use App\Share; in ShareController.php
 In index.blade.php
 <td><a href="{{ route('shares.edit',[$share->id])}}" class="btn btn-primary">Edit</a></td>
 
+<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+<link rel="stylesheet" href="{{ URL::asset('css/stylesheet.css') }}" />
