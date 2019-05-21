@@ -1,0 +1,12 @@
+https://appdividend.com/2018/09/06/laravel-5-7-crud-example-tutorial/
+
+cd xampp\htdocs\laravel\blog
+php artisan serve
+
+1. start from step 3
+
+Share not found. Addd use App\Share; in ShareController.php
+
+In index.blade.php
+<td><a href="{{ route('shares.edit',[$share->id])}}" class="btn btn-primary">Edit</a></td>
+
